@@ -1,5 +1,5 @@
 import express from "express";
-import Booking from "../models/Booking.js";
+import Booking from "../models/booking.js";
 import Experience from "../models/experience.js";
 
 const router = express.Router();
