@@ -9,7 +9,7 @@ export default function CheckoutPage() {
 
   const API_BASE_URL = import.meta.env.VITE_API_URL;
 
-  const { experience, selectedDate, selectedTime, quantity, total } =
+  const { experience, selectedDate, selectedTime, quantity } =
     location.state || {};
 
   // ------------------- form fields ----------------------
